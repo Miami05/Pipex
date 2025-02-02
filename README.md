@@ -53,18 +53,19 @@ This project helps in understanding:
    ```bash
    git clone https://github.com/yourusername/pipex.git
    cd pipex
+   ```
+### Compile the project:
 
-    Compile the project:
+#### Mandatory version:
 
-    Mandatory version:
-
+```
 make
-
-Bonus version:
-
+```
+#### Bonus version:
+```
 make bonus
-
-Clean compiled files:
+```
+#### Clean compiled files:
 
     make clean    # Removes object files
     make fclean   # Removes object files and binary
